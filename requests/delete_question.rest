@@ -1,0 +1,1 @@
+DELETE http://localhost:3001/api/quizzes/6925a42e6519e42e4b86b599

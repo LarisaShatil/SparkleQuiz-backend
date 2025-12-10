@@ -1,0 +1,16 @@
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+      "name": "Admin",
+      "email": "admin123@gmail.com",
+      "role": "admin",
+      "password": "123admin"
+}
+
+# {
+#       "name": "Admin",
+#       "email": "admin123@gmail.com",
+#       "role": "admin",
+#       "password": "123admin"
+# }

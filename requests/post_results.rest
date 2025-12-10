@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/results
+Content-Type: application/json
+
+{
+      "userId": "69302cd9db73419a2c2f4282",
+      "quizCategory": "animals",
+      "score": "2",
+      "total": "3"
+}
+
+
+# const resultSchema = mongoose.Schema({
+#   userId: , ( "69302cd9db73419a2c2f4282", "6932c5cf94ceaa0096c2add2")
+#   quizId: , ("692595990217b82210cdb806",  "69300dec13d4a212b43eb93f")
+#   score: Number,
+#    total Number,
+# })

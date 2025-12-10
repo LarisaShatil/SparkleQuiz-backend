@@ -1,0 +1,13 @@
+POST http://localhost:3001/api/quizzes 
+content-type: application/json
+
+    {
+      "question": "How many teeth does an adult rabbit have?",
+    "correct_answer": "28",
+    "answers": [
+"30",
+"26",
+"24",
+"28"],
+      "category": "animals"
+  }
