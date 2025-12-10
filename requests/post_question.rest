@@ -1,13 +1,14 @@
 POST http://localhost:3001/api/quizzes 
 content-type: application/json
-
-    {
-      "question": "How many teeth does an adult rabbit have?",
-    "correct_answer": "28",
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluMTIzQGdtYWlsLmNvbSIsImlkIjoiNjkzMDJkMDFkYjczNDE5YTJjMmY0Mjg0IiwiaWF0IjoxNzY1Mzg2MjA1LCJleHAiOjE3NjUzODk4MDV9.Dj2qx2LohsxJjR1m1Lp04poeX6mLnbGKgQ6JWkQ_2E0
+   
+ {
+      "question": "Which Finnish city is home to the Moomin World theme park?",
+    "correct_answer": "Naantali",
     "answers": [
-"30",
-"26",
-"24",
-"28"],
-      "category": "animals"
+      "Joensuu",
+"Kuopio",
+"Naantali",
+"Oulu "],
+      "category": "Finland"
   }

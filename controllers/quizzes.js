@@ -34,7 +34,7 @@ quizzesRouter.delete('/:id', async (req, res) => {
   res.status(204).end()
 })
 
-quizzesRouter.post('/', middleware.tokenExtractor, async (req, res) => {
+quizzesRouter.post('/', middleware.userExtractor, async (req, res) => {
   const { question, correct_answer, answers, category } = req.body
 
   const user = await User.findById(req.user.id)

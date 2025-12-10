@@ -1,6 +1,14 @@
-PUT http://localhost:3001/api/quizzes/6925a42e6519e42e4b86b599
+PUT http://localhost:3001/api/quizzes/6939a96fb3d02a110f3dc5dc
 content-type: application/json
 
-{
-"question": "UPDATED QQQ  test?"
-}
+    {
+   "question": "What is the Swedish name for Helsinki?",
+    "correct_answer": "Helsingfors",
+    "answers": [
+      "Helsingør",
+      "Suomi",
+      "Helsingfors",
+      "Hesa"
+    ],
+    "category": "Finland"
+  }
