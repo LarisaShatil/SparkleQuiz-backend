@@ -1,4 +1,4 @@
 GET http://localhost:3001/api/quizzes
 
 // get with ID
-GET http://localhost:3001/api/quizzes/692595990217b82210cdb806
+# GET http://localhost:3001/api/quizzes/692595990217b82210cdb806

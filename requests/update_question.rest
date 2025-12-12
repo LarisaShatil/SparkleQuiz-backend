@@ -1,14 +1,14 @@
-PUT http://localhost:3001/api/quizzes/6939a96fb3d02a110f3dc5dc
+PUT http://localhost:3001/api/quizzes/6939ad6db3d02a110f3dc5f6
 content-type: application/json
 
     {
-   "question": "What is the Swedish name for Helsinki?",
-    "correct_answer": "Helsingfors",
+  "question": "The five highest peaks in Finland are all found in which northern region?",
+    "correct_answer": "Lapland",
     "answers": [
-      "Helsingør",
-      "Suomi",
-      "Helsingfors",
-      "Hesa"
+      "Central Ostrobothnia",
+      "Uusimaa",
+      "Southwest Finland",
+      "Lapland"
     ],
     "category": "Finland"
   }
